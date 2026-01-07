@@ -1,0 +1,32 @@
+{
+    "project": "Sistema de Ventas GUI (Tkinter)",
+    "tech": [
+        "Python",
+        "Tkinter",
+        "File Persistence"
+    ],
+    "features": [
+        "CRUD de Categorías, Productos, Clientes, Proveedores",
+        "Facturación y Ordenes de Compra",
+        "Control de Inventario",
+        "Design: Flat Theme (Blue/Gray)",
+        "Dashboard with Real-Time Stats",
+        "Search & Filtering System",
+        "Transaction Voiding (Stock Reversion)",
+        "Professional PDF Invoicing"
+    ],
+    "stack": {
+        "language": "Python 3",
+        "framework": "Tkinter",
+        "tools": [
+            "Git",
+            "fpdf"
+        ],
+        "database": "Text Files (.txt)"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Sistema de ventas con interfaz gráfica para administración de inventarios y facturación.",
+        "en": "Sales system with GUI for inventory management and billing."
+    }
+}
