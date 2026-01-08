@@ -1,32 +1,54 @@
 {
-    "project": "Sistema de Ventas GUI (Tkinter)",
-    "tech": [
-        "Python",
-        "Tkinter",
-        "File Persistence"
-    ],
-    "features": [
-        "CRUD de Categorías, Productos, Clientes, Proveedores",
-        "Facturación y Ordenes de Compra",
-        "Control de Inventario",
-        "Design: Flat Theme (Blue/Gray)",
-        "Dashboard with Real-Time Stats",
-        "Search & Filtering System",
-        "Transaction Voiding (Stock Reversion)",
-        "Professional PDF Invoicing"
-    ],
-    "stack": {
-        "language": "Python 3",
-        "framework": "Tkinter",
-        "tools": [
-            "Git",
-            "fpdf"
+    "en": {
+        "tech": [
+            "Python",
+            "Tkinter",
+            "File Persistence",
+            "PDF Generation"
         ],
-        "database": "Text Files (.txt)"
+        "features": [
+            "Full CRUD for Categories, Products, Customers, and Suppliers",
+            "Billing and Purchase Order system",
+            "Advanced Inventory Control and Stock Reversion",
+            "Dashboard with real-time sales statistics",
+            "Professional PDF invoice generation"
+        ],
+        "stack": {
+            "language": "Python 3",
+            "framework": "Tkinter",
+            "tools": [
+                "FPDF",
+                "PIL (Pillow)"
+            ],
+            "database": "Text-Based Files (.txt)"
+        },
+        "screenshots": [],
+        "description": "A comprehensive desktop ERP solution tailored for small and medium enterprises. This application handles the complete business lifecycle, from supplier stock acquisition to professional client billing. It includes an intelligent inventory engine that automatically reverts stock on voided transactions and a real-time analytics dashboard for monitoring revenue. The integration of PDF reporting ensures that all commercial activities are documented with a professional finish, all managed through a clean, intuitive Python GUI."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Sistema de ventas con interfaz gráfica para administración de inventarios y facturación.",
-        "en": "Sales system with GUI for inventory management and billing."
+    "es": {
+        "tech": [
+            "Python",
+            "Tkinter",
+            "Persistencia en Archivos",
+            "Generación de PDF"
+        ],
+        "features": [
+            "CRUD completo de Categorías, Productos, Clientes y Proveedores",
+            "Sistema de Facturación y Órdenes de Compra",
+            "Control de Inventario avanzado y reversión de stock",
+            "Panel de control con estadísticas de ventas en tiempo real",
+            "Generación de facturas profesionales en PDF"
+        ],
+        "stack": {
+            "language": "Python 3",
+            "framework": "Tkinter",
+            "tools": [
+                "FPDF",
+                "PIL (Pillow)"
+            ],
+            "database": "Archivos de Texto (.txt)"
+        },
+        "screenshots": [],
+        "description": "Una solución ERP de escritorio integral diseñada para pequeñas y medianas empresas. Esta aplicación maneja el ciclo de vida completo del negocio, desde la adquisición de stock a proveedores hasta la facturación profesional a clientes. Incluye un motor de inventario inteligente que revierte automáticamente el stock en transacciones anuladas y un panel de análisis en tiempo real para monitorear ingresos, permitiendo una gestión eficiente mediante una interfaz gráfica limpia e intuitiva en Python."
     }
 }
