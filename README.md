@@ -1,74 +1,70 @@
-# Sistema de Ventas e Inventario (Tkinter FrameWork)
+﻿# Sistema de Ventas GUI App
 
-Sistema robusto de administración empresarial desarrollado en Python con interfaz gráfica moderna. Permite la gestión completa de inventarios, transacciones de compra/venta y generación de reportes profesionales.
+## Descripción
+Sistema de ventas con interfaz Python/Tkinter para clientes, productos, categorias, proveedores, ordenes y facturas mediante archivos.
 
-## 🚀 Características Principales
+## Objetivo
+Practicar aplicaciónes desktop CRUD, autenticación, reportes y persistencia local.
 
-### 🖥️ Interfaz Moderna (UI/UX)
+## Tecnologías utilizadas
+- Python 3
+- Tkinter
+- Archivos .txt
+- Repositorios/modelos
 
-- Diseño limpio y profesional ("Flat Design") con paleta de colores corporativa.
-- **Dashboard Interactivo**: Visualización en tiempo real de stock crítico y accesos rápidos.
-- Navegación intuitiva mediante barra de menú superior.
+## Funcionalidades principales
+- Login y menu
+- CRUD comercial
+- Facturacion y ordenes
+- Búsqueda/reportes
+- Capa repository
 
-### 📦 Gestión de Inventario
+## Mi rol
+Desarrollé interfaz, modelos, repositorios y flujos de ventas.
 
-- **CRUD Completo**: Administración de Categorías, Productos, Clientes y Proveedores.
-- **Búsqueda en Tiempo Real**: Filtros instantáneos en todos los listados.
-- **Integridad de Datos**: Validaciones inteligentes que impiden eliminar registros en uso.
+## Aprendizajes clave
+- Desktop por ventanas
+- Persistencia multi-entidad
+- UI-modelo-repositorio
+- Flujos administrativos
 
-### 💰 Transacciones y Facturación
-
-- **Punto de Venta (POS)**: Generación ágil de facturas con validación automática de stock.
-- **Órdenes de Compra**: Reabastecimiento de inventario integrado.
-- **Anulación**: Sistema de reversión de transacciones (Facturas/Órdenes) con ajuste automático de stock.
-
-### 📄 Reportes Profesionales
-
-- Generación automática de **PDFs** con librería `fpdf`.
-- Facturas detalladas con diseño corporativo.
-- Listados exportables de transacciones.
-
-## 🛠️ Tecnologías
-
-- **Lenguaje**: Python 3.13+
-- **GUI**: Tkinter + ttk (Themed Tkinter)
-- **Reportes**: biblioteca `fpdf`
-- **Persistencia**: Sistema de Archivos Planos (`.txt`)
-
-## ⚙️ Instalación y Ejecución
-
-1. **Requisitos Previos**:
-   Asegúrese de tener Python instalado. Instale la dependencia de reportes:
-
-   ```bash
-   pip install fpdf
-   ```
-
-2. **Ejecutar la Aplicación**:
-   Navegue a la carpeta del programa e inicie el script principal:
-
-   ```bash
-   cd programa
-   python main.py
-   ```
-
-3. **Credenciales por Defecto**:
-   - **Usuario**: `admin`
-   - **Contraseña**: `admin`
-
-## 📂 Estructura del Proyecto
-
-```
-.
-├── documentacion/          # Manual de Usuario y Técnica
-├── programa/
-│   ├── data/               # Base de datos (archivos .txt)
-│   ├── reportes/           # Salida de PDFs generados
-│   ├── src/                # Código Fuente (Modelos, Vistas, Controladores)
-│   └── main.py             # Punto de entrada
-├── info.txt                # Metadatos del Curso
-└── project-info.json       # Detalle del Proyecto
+## Instalación y ejecución
+```bash
+cd SistemaDeVentas--GUI-App/programa
+python main.py
 ```
 
----
-**Curso**: Taller de Programación | **Estudiante**: Geovanni Gonzalez Aguilar | **Año**: 2026
+## Estructura del proyecto
+- main.py: entrada
+- src/: lógica
+- src/ui/: ventanas
+- data/: entidades
+
+## Capturas o demo
+![Captura principal](screenshots/principalImage.png)
+
+## Estado del proyecto
+Proyecto académico funcional.
+
+## Valor técnico demostrado
+Demuestra sistemas administrativos con múltiples entidades y UI desktop.
+
+## Mejoras futuras
+- Migrar a SQLite
+- Pruebas de repositorio
+- Documentar credenciales
+
+## Autor
+Geovanni González  
+Estudiante de Ingeniería en Computación  
+GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
+
+
+
+
+
+
+
+
+
+
