@@ -1,5 +1,7 @@
 ﻿# Sistema de Ventas GUI App
 
+[![CI](https://github.com/Geovanni-Gonzalez/SistemaDeVentas--GUI-App/actions/workflows/ci.yml/badge.svg)](https://github.com/Geovanni-Gonzalez/SistemaDeVentas--GUI-App/actions/workflows/ci.yml)
+
 ## Descripción
 Sistema de ventas con interfaz Python/Tkinter para clientes, productos, categorias, proveedores, ordenes y facturas mediante archivos.
 
