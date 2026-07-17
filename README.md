@@ -1,4 +1,6 @@
-﻿# Sistema de Ventas GUI App
+# Sistema de Ventas GUI App
+
+> **Versión 1 de 2.** La evolución de este sistema — de archivos planos a SQLite con patrón Repository — vive en [SistemaDeVentas-GUI-App-V2](https://github.com/Geovanni-Gonzalez/SistemaDeVentas-GUI-App-V2).
 
 [![CI](https://github.com/Geovanni-Gonzalez/SistemaDeVentas--GUI-App/actions/workflows/ci.yml/badge.svg)](https://github.com/Geovanni-Gonzalez/SistemaDeVentas--GUI-App/actions/workflows/ci.yml)
 
